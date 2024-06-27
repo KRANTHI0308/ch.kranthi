@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhar update</title>
+    <link rel="icon" href="./aadhar.jpg">
+    </head>
+<body>
+    <fieldset style=" width:fit-content; background-image:url(https://paytmblogcdn.paytm.com/wp-content/uploads/2023/08/Blogs_Paytm_Common-Problems-with-Aadhaar-Their-Solutions-2.jpg);">
+    <form>
+        <center>Form 1:Aadhar Enrolment and update
+        <p>For (a) Resident Indian, or (b)Non-Resident indian having poof of Address in India</p></center>
+        <label>1.Purpose:</label>
+       <input type="radio" id="Purpose:" name="Purpose"/>
+        <label >Enrolment</label>
+        <input type="radio" id="Purpose:" name="Purpose"/>
+        <label>update</label>
+    </br><label>2.Resident status:</label>
+    <input type="radio" id="Resident status:" name="Resident status"/>
+     <label>Resident indian</label>
+     <input type="radio" id="Resident status:" name="Resident status"/>
+     <label>Non-Resident indian</label>
+        <p>3.Demographic information:</p>
+</br><label>A.NAME:</label>
+        <input type="text">
+</br><label>B.GENDER:</label>
+       <input type="radio" id="gender" name="my_gender"/>
+        <label>Male</label>
+        <input type="radio" id="gender" name="my_gender"/>
+        <label>Female</label>
+        <input type="radio" id="gender" name="my_gender"/>
+        <label>Transgender</label>
+        <br /><label for="date of birth">C.Date Of Birth</label> <br /><input
+          type="date"
+        />
+        <label>D.G-Mail</label>
+        <input type="email" name="G-Mail" placeholder="eg:abc@gmil.com:" />
+          <label>E.Mobile</label>
+        <input type="number" name="Mobile" id="Mobile" placeholder="89198xxxx" />
+    <p>4.Basis of enrolment/update:</p>
+    <input type="radio" id="Basis of enrolment/update" name="update"/>
+    <lable>Document Verification OR</lable>
+    <input type="radio" id="Basis of enrolment/update" name="update"/>
+    <label>Confirmation by Head of family</label>
+    <p>5.For document-based enrolment/update, additional demographic information and documents presented:</p>
+    <label for="ADDRESS">a.Address:</label>
+        <input type="text" name="ADDRESS" placeholder="Prakasam(dt),A.P" />
+        <label for="H.no">H.no</label>
+        <input type="text" name="H.no" placeholder="i.e:1/106" />
+ <label for="Street">Street</label>
+        <input type="text" name="Street" placeholder="Sundhar Nagar" />
+        <label for="Landmark:">Landmark:</label>
+        <input type="text" name="Landmark:" placeholder="near ex temple" />
+        <label for="Area/Locality/Sector:">Area/Locality/Sector:</label>
+        <input type="text" name="Area/Locality/Sector:" placeholder="Singarayakonda" />
+        <label for="Village/Town/City:">Village/Town/City:</label>
+        <input type="text" name="Village/Town/City:" placeholder="Singarayakonda" />
+</br><label for="PIN code">PIN code:</label>
+        <input type="text" name="PIN code:" placeholder="523101" />
+        <label for="District:">District:</label>
+        <input type="text" name="District:" placeholder="Prakasam" />
+        <label for="State:">State:</label>
+        <input type="text" name="State:" placeholder="Andhara Pradesh"/>
+        <label for="Type of documents presented:">b.Type of documents presented:</label>
+        
+        <select name="Type of documents presented:" id="Type of documents presented:" size="1"/>
+<option value="Proof of Identity">Proof of Identity</option>
+<option value="Proof of Address">Proof of Address</option>
+<option value="Proof of Date of Birth">Proof of Date of Birth</option>
+</select>
+<p>6.For HoF-based enrolment or update of address, additional information and documents presented:</p>
+<label for="Details of HoF">a.Details of HoF:</label>
+        <input type="text" name="Details of HoF" placeholder="father_name" />
+        <label for="Aadhaar no:">Aadhaar no:</label>
+        <input type="number" name="Aadhaar no:" placeholder="aadhar_number"/>
+    </br><label>(ii)Relationship with applican:</label>
+    <input type="radio" id="Relationship with applican" name="Relationship with applican"/>
+     <label>Father</label>
+     <input type="radio" id="Relationship with applican" name="Relationship with applican"/>
+     <label>Mother</label>
+     <input type="radio" id="Relationship with applican" name="Relationship with applican"/>
+     <label>Spouse</label>
+     <label>(b) Type of Proof of Relationship (POR) document presented: 
+    </label>
+    <input type="text" placeholder="i.e Relation_proof"/>
+ <p>I confirm the identity of the applicant named above and that she/he is related to me as mentioned. I hereby consent that the
+    address recorded against my Aadhaar number may be recorded as the address against the Aadhaar number of the applicant</p>
+    <label>Singnature of HOF*</label>
+    <input type="text" required="ingnature of HOF"/>
+    <p>7.For update, additional information:</p>
+    <label>a.Aadhaar number of applicant:*</label>
+    <input type="number" required="Aadhaar number of applicant"/>
+<p>b.Information to be updated:</p>
+<input type="radio" id="Biometric"/>
+    <label>Biometric (photo, fingerprints and irises)</label>
+    <input type="radio" id="Name"/>
+    <label>Name</label>
+    <input type="radio" id="Date of Birth"/>
+<label>Date of Birth</label>
+    <input type="radio" id="Genger"/>
+    <label>Gender</label>
+    <input type="radio" id="Address"/>
+    <label>Address</label>
+    <input type="radio" id="Mobile"/>
+    <label>Mobile</label>
+    <input type="radio" id="Email"/>
+    <label>Email</label>
+    <input type="radio" id="Update of POI and POA documents"/>
+    <label>Update of POI and POA documents</label>
+    <hr></hr>
+    <center>Declaration</center>
+    <pre>1.I hereby confirm and declare that—
+(a) all the information and documents submitted is correct to the best of my knowledge and belief;
+(b) I am entitled to the documents/information evidencing proofs cited above; and
+(c) I am a resident of India (resided in India for 182 days or more in 12 months immediately preceding my enrolment application) OR I am a Non-Resident Indian (valid Indian passport holding citizen who is not resident of India).
+2.I understand that if the above declaration is found to be incorrect, my Aadhaar number may be deactivated and, in addition,
+ action may be taken against me as per law.
+3.I understand that the above information may be used, disclosed or shared in accordance with the Aadhaar (Targeted Delivery
+ of Financial and Other Subsidies, Benefits and Services) Act, 2016 and regulations made thereunder.
+4.I hereby give my consent for electronically obtaining information evidencing proof of identity, address, date of birth and/or
+relationship from the databases of the authorities dealing with the preparation or maintenance of such information and for
+sharing the above information and documents with government agencies and/or any such authority, for the purpose of verification.</pre>
+<label>Signature of verifier:</label>        
+<input type="text" id="sign"/>
+<label>Name of verifier:</label>
+<input type="text" id="Name_verif"/>
+<label>Signature / thumb impression of applicant:</label>
+<input type="text" id="sign"/>
+<label for="date of birth">Date and time:</label> <br /><input
+          type="date"/>
+    </fieldset>
+    <input type="checkbox" required/>*In case applicant is a person with disability, in respect of whom a lawful guardian is appointed and such guardianship extends
+    to providing of the consent sought, such guardian shall present document in support of the same and sign the application.</p>
+
+<input type="submit" value="submit" formaction="./thanq.jpg"/>
+<a href="./loging.html">Home</a>
+    </form>
+
+</body>
+</html>
