@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="icon" href="./aadhar.jpg">
+    <style>
+        body{
+             background-image: url(https://i.cdn.newsbytesapp.com/images/l50220230307143556.png);
+        }
+    </style>
+  </head>
+  <body>
+      <center>
+        <h1><u>Create Account</u></h1>
+      </center>
+      <form>
+        <br /><h1><label for="FIRST_NAME">FIRST_NAME:</label>
+        <input
+          type="text"
+          name="FIRST_NAME"
+          id="FIRST_NAME"
+          placeholder="chevuri"
+        />
+        <label for="Second_Name" >Second_Name:</label>
+        <input type="text" name="Second_Name" id="Second_Name" placeholder="Kranthi kumar" />
+        <label>NATIONALITY:</label>
+        <input type="text" name="NATIONALITY" placeholder="indian" />
+        </br><label>GENDER:</label>
+       <input type="radio" id="gender" name="my_gender"/>
+        <label>MALE</label>
+        <input type="radio" id="gender" name="my_gender"/>
+        <label>FEMALE</label>
+        <label >G-Mail:</label>
+        <input type="email" name="G-Mail" placeholder="eg:abc@gmil.com:" />
+        <label>Mobile:</label>
+        <input type="number" name="Mobile" id="Mobile" placeholder="89198xxxx" />
+    </br><label>User I'd:</label>
+    <input type="text" required="User I'd"/>
+    <label>Password:</label>
+        <input type="password" required="password"[0-9]{5}/>
+    <label>Re-Password:</label>
+        <input type="Re-Password"required="password"[0-9]{5}/>
+        <input="submit" formaction="./loging.html" value="login"/>        
+      </br><a href="./loging.html" target="_blank">SUBMIT</a>
+      </form>
+  </body>
+</html>
